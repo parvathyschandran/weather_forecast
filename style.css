@@ -1,0 +1,89 @@
+body{
+    margin:50px;
+    background-image: url('https://rare-gallery.com/uploads/posts/981429-Light-Fairytail-artwork-sky-lightning-clouds-nature.jpg');
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colflex{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 36px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    border: 0px;
+    background-color:rgb(90, 117, 129);
+}
+
+.form_button {
+    width: 330px;
+    height: 48px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+    text-align: center;
+    color:black;
+}
+
+.form_head {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+.form_wrapper {
+    width: 400px;
+    height: 550px;
+    background-color: hwb(22 13% 54%);
+    opacity: 0.6;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+
+@media(max-width:570px){
+    body{
+        margin: 40px 10px;
+        /* padding-left: 0;
+        padding-right:0; */
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .heading{
+        font-size:20px ;
+    }
+    #city{
+        width: 200px;
+        height: 30px;
+        border: 0;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 0px;
+        text-align: center;
+        color:black;
+    }
+    .button{
+        width: 38px;
+        height: 30px;
+        border: 0px;
+    }
+    
+}
+
